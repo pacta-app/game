@@ -77,7 +77,7 @@ class DefaultDrawer extends Component {
           </ListItemSecondaryAction>
         </ListItem>
         {this.props.isAppInstallable && !this.props.isAppInstalled ? (
-          <ListItem button>
+          <ListItem button disabled>
             <ListItemText
               primary={
                 <Typography variant="body1" color="inherit">

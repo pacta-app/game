@@ -33,23 +33,32 @@ class Main extends Component {
           <Button color="primary" variant="contained" href="mailto:simon.buechi@gmail.com">
             Send email
           </Button> 
+          {bncOnboard && (
           <Box my={3}>          
             <Typography variant="h6" gutterBottom>
-              Connect a wallet
+              First steps
             </Typography>
-
-            {bncOnboard && (
-              <>
+            <Typography variant="body2" gutterBottom>
+              1. Select your ethereum wallet
+            </Typography>
               <Button color="primary" variant="outlined" onClick={() => {bncOnboard.walletSelect(); }} >
                 Select a Wallet
               </Button>
-              &nbsp;
+              <Typography variant="body2" gutterBottom>
+                2. Authorize wallet
+              </Typography>
               <Button color="primary" variant="outlined" onClick={() => {bncOnboard.walletCheck(); }} >
-                Check Wallet
+                Authorize Wallet
               </Button>
-            </>
+              <Typography variant="body2" gutterBottom>
+                3. Go to Chat (menu left) and leave a comment
+              </Typography>
+              <Typography variant="body2" gutterBottom>
+                4. (optional). Go to https://3box.io/hub and make a social profile for your ethereum account.
+              </Typography>
+            </Box>
             )}
-          </Box>
+          
         </Grid>
         <Grid item xs={12} md={4} lg={3} className="defaultpadding">
           <Paper className="defaultpadding">
