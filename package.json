@@ -2,7 +2,7 @@
   "name": "pacta-playground",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://pacta.app",
+  "homepage": "https://pacta-app.github.io/game/",
   "dependencies": {
     "3box": "^1.13.1",
     "3box-chatbox-react": "^0.1.6",

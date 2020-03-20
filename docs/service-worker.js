@@ -11,11 +11,11 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("/workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/workbox-v4.3.1"});
+importScripts("/game/workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/game/workbox-v4.3.1"});
 
 importScripts(
-  "/precache-manifest.7ab0e450e58baf097a4e3d4d84594b65.js"
+  "/game/precache-manifest.d3642a9f05da49fbbad15d9a9c5ba817.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -34,7 +34,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/game/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
