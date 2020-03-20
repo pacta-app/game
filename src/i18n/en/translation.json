@@ -1,0 +1,454 @@
+{
+  "association": {
+    "noMember": "Please join this association to view content.",
+    "tab": {
+      "info": "Base",
+      "people": "People",
+      "vote": "Vote",
+      "tasks": "Tasks",
+      "cash": "Cash",
+      "start": "Start",
+      "assets": "Assets",
+      "chat": "chat"
+    },
+    "people": {
+      "title": "People",
+      "electionsTitle": "Open elections",
+      "members": "Members",
+      "buttonElection": "Create new election",
+      "personTitle": "personTitle"
+    },
+    "voting": {
+      "title": "Voting",
+      "proposal": "Proposal",
+      "currentTitle": "Current proposals",
+      "nothing": "nothing",
+      "pastTitle": "Past proposals",
+      "backToOverview": "Back to overview",
+      "youvoted": "You have voted.",
+      "votenow": "Vote now!",
+      "until": "Open until ",
+      "duration": "Voting time",
+      "startedOn": "Started on {{date, date}} ({{date, distance}})",
+      "endsOn": "Ends on {{date, date}} ({{date, distance}})",
+      "proposalOpen": "Proposal is open",
+      "proposalAccepted": "Proposal is approved",
+      "proposalRejected": "Proposal is rejected",
+      "button": {
+        "new": "Create new proposal"
+      },
+      "new": {
+        "title": "Create new proposal",
+        "titleField": "Title",
+        "titlePlaceholder": "Enter text here",
+        "proposal": "Proposal",
+        "proposalPlaceholder": "Enter text here",
+        "endtime": "Duration",
+        "endtimePlaceholder": "Add number of days (e.g. 14 for two weeks)",
+        "submit": "Create voting",
+        "cancel": "Cancel",
+        "endtimeHelper": "Minimum is ",
+        "endtimeHelper2": ", maximum is ",
+        "expirationDate": "End date"
+      },
+      "notallowed": "not allowed",
+      "voting": {
+        "closed": "closed",
+        "voted": "voted",
+        "open": "open"
+      },
+      "payment": {
+        "amount": "{{amount, eth}}",
+        "expirydate": "Payment ready to be executed before {{date, date}} ({{date, distance}})",
+        "executeddate": "Payment has been executed on {{date, date}} ({{date, distance}})"
+      },
+      "meetingTitle": "meetingTitle"
+    },
+    "base": {
+      "explanation": "Explanation",
+      "name": "Name",
+      "address": "Address",
+      "purpose": "Purpose",
+      "fee": "Fee",
+      "data": "Data",
+      "balance": "Balance",
+      "documents": "Documents",
+      "printstatutes": "Print statutes",
+      "basics": "Basics",
+      "you": "Your status",
+      "more": "More",
+      "showqr": "Show QR",
+      "showblockies": "Show Icon",
+      "iamboardmember": "You are member of the board",
+      "iammember": "You are a member of this association.",
+      "until": "Your membership lasts until ",
+      "nomember": "You are not a member",
+      "joinBody": "Become a member of this association by paying upfront a yearly fee of ",
+      "prolong": "prolong",
+      "joinTitle": "Join new",
+      "joinButton": "Join",
+      "prolongfee": "Renew your membership for another year for ",
+      "joinfee": "joinfee",
+      "founded": "Founded on ",
+      "makeDonation": "makeDonation",
+      "donateField": "donateField",
+      "donateFieldPlaceholder": "donateFieldPlaceholder",
+      "donateNow": "donateNow"
+    },
+    "assets": {
+      "title": "Assets",
+      "intro": "intro",
+      "newPayment": "Create new payment",
+      "currentTitle": "currentTitle",
+      "overviewTitle": "overviewTitle",
+      "accountEthereum": "accountEthereum"
+    },
+    "pay": {
+      "title": "New payment",
+      "to": "Receiver",
+      "toPlaceholder": "Enter Ethereum address (0x...)",
+      "amount": "Amount in ETH",
+      "amountPlaceholder": "E.g. 0.1",
+      "date": "Payment execution date",
+      "comment": "Comment",
+      "commentPlaceholder": "enter comment",
+      "expireDate": "Expiration date",
+      "submit": "Submit payment"
+    },
+    "election": {
+      "until": "until",
+      "closed": "closed"
+    }
+  },
+  "date": {
+    "simple": "{{date, MM/DD/YYYY}}",
+    "datetime": "{{D MMMM YYYY}}"
+  },
+  "menu": {
+    "top": {
+      "connection": {
+        "info": "Blockchain connection",
+        "notconnected": "Not connected to Ethereum",
+        "youareon": "You're on network ",
+        "network": " Network",
+        "networkOk": "Enjoy using Pacta",
+        "networkNok": "This network is not supported",
+        "connected": "Your are connected with this account"
+      },
+      "close": "close",
+      "currency": "currency",
+      "changelang": "changelang",
+      "offline": "offline",
+      "settings": "settings",
+      "toggle": "toggle",
+      "notconnected": "Not connected to Ethereum"
+    },
+    "drawer": {
+      "myorgs": "My organisations",
+      "directory": "Directory",
+      "new": "NEW",
+      "found": "Create New",
+      "foundsimple": "foundsimple",
+      "more": "MORE",
+      "support": "Support",
+      "admin": "Admin",
+      "drizzle": "Drizzle",
+      "internal": "internal",
+      "installapp": "Install App",
+      "about": "About"
+    },
+    "footer": {
+      "copyright": "Copyright",
+      "slogan": "slogan",
+      "about": "about",
+      "support": "support",
+      "contact": "contact"
+    }
+  },
+  "deploy": {
+    "select": {
+      "account1": "account1",
+      "account1Placeholder": "account1Placeholder",
+      "account2": "account2",
+      "account2Placeholder": "account2Placeholder",
+      "comment": "comment",
+      "commentPlaceholder": "commentPlaceholder"
+    },
+    "button": {
+      "found": "Create new"
+    },
+    "found": {
+      "title": "Create new"
+    }
+  },
+  "base": {
+    "explanation": "Explanation",
+    "name": "Name",
+    "address": "Address",
+    "purpose": "Purpose",
+    "fee": "Fee",
+    "cancel": "Cancel",
+    "snippet": {
+      "ca": "ca",
+      "info": "info",
+      "yes": "yes",
+      "no": "no",
+      "qr": "QR Code",
+      "inyourcurrency": "In your currency: Approx. "
+    },
+    "loading": {
+      "noethereumTitle": "No Ethereum detected",
+      "noetheraccountTitle": "No accounts found",
+      "noethereum": "This browser has no connection to the Ethereum network. Please use the Chrome/FireFox extension MetaMask, or dedicated Ethereum browsers Mist or Parity.",
+      "noetheraccount": "We can't find any Ethereum accounts. Please check and make sure Metamask or your browser are pointed at the correct network and your account is unlocked.",
+      "defaultloading": "Awaiting blockchain...",
+      "needhelp": "needhelp"
+    },
+    "app": {
+      "title": "Pacta"
+    },
+    "date": {
+      "simple": "{{date, dd MMMM yyyy}}",
+      "remaining": "{{date, distance}}"
+    }
+  },
+  "top": {
+    "settings": {
+      "notifications": {
+        "label": "label"
+      }
+    }
+  },
+  "statutes": {
+    "title": {
+      "statutes": "statutes"
+    }
+  },
+  "directory": {
+    "search": {
+      "label": "Search",
+      "placeholder": "start typing..."
+    },
+    "title": "Directory",
+    "description": "Here you find all associations that are publicly listed.",
+    "noresult": "noresult"
+  },
+  "main": {
+    "welcome": {
+      "title": "Start",
+      "subtitle": "Manage your associations."
+    },
+    "myorgs": {
+      "title": "My organisations",
+      "newhere": "Are you new here?",
+      "button": {
+        "directory": "Directory",
+        "found": "Found"
+      }
+    },
+    "connect": {
+      "title": "title",
+      "body": "You are curently not connected to the blockchain. We recommend Metamask Browser extension.",
+      "button": "button"
+    },
+    "feedback": {
+      "title": "title",
+      "button": "button"
+    },
+    "start": {
+      "tasks": "New here?",
+      "directory": "Start by browsing publicly listed association and join one.",
+      "button": {
+        "directory": "Directory",
+        "found": "Found new association"
+      },
+      "found": "Or found your own association with just a few steps."
+    },
+    "info": {
+      "title": "Info",
+      "body": "Do you need help? Is there a problem? Let us know. Thank you.",
+      "button": {
+        "support": "Support",
+        "email": "Email"
+      }
+    }
+  },
+  "internal": {
+    "admin": {
+      "title": "Pacta Contract (internal)"
+    }
+  },
+  "support": {
+    "1": {
+      "q": "What do I need to run Pacta?",
+      "a": "Pacta requires:\n- webbrowser\n- [the Metamask extension](https://metamask.io/)\n- some [Ether on the account](https://bity.com/en/)\n\nPacta is a web app which runs on all modern browsers both desktop and mobile. To access the Ethereum blockchain, you require a web3js compatible tool. For most users, the easiest way is to use the browser extension Metamask."
+    },
+    "2": {
+      "q": "Can I use an existing association on Pacta?",
+      "a": "Yes. Please consider what functionality you want to run on Pacta and what you want to do in the «traditional world»."
+    },
+    "3": {
+      "q": "Can I use an banking account for my association?",
+      "a": "Yes.  However, everthing you do off-chain (outside Pacta) is not secured by the blockchain."
+    },
+    "4": {
+      "q": "Why Pacta, why blockchain?",
+      "a": "The blockchain is a secure, immutable database. It allows Pacta to implement the logic of an association in smart contracts. Your association is created in the blockchain and exists independent of Pacta. Pacta is your easy way to the blockchain."
+    },
+    "5": {
+      "q": "What currencies does Pacta support?",
+      "a": "Pacta runs on Ethereum blockchain which is powered by Ether."
+    },
+    "6": {
+      "q": "Do I need Ether to run Pacta?",
+      "a": "Yes. Each change in the blockchain is executed world wide and requres a small fee, named «gas». The easiest way to get Ether is using a Broker (such as [Bity](https://bity.com/en/))."
+    },
+    "7": {
+      "q": "What is gas and why do I need to pay it?",
+      "a": "Each change in the blockchain is executed world wide and requres a small fee, named «gas»."
+    },
+    "8": {
+      "q": "How much does it cost to use Pacta?",
+      "a": "The gas required for the blockchain, plus 1% of each payment to the association as small fee to run Pacta."
+    },
+    "9": {
+      "q": "How much does it cost to found an association?",
+      "a": "Pacta does not charge an initial fee beside your association's subscription fee you select. However, the usage of Ethereum blockchain requires gas. You will see the exact amount of gas costs before founding."
+    },
+    "10": {
+      "q": "I need a function XYZ. When will it be available?",
+      "a": "Please let us know your wishes. We try to implement frequently requested functions as quickly as possible. However, there are challenges in the blockchain world that cannot yet be solved and implemented with the necessary security. We will keep you up to date."
+    },
+    "11": {
+      "q": "Does Pacta support any organizational forms other than associations?",
+      "a": "Currently not. We are working on it."
+    },
+    "12": {
+      "q": "What's up with the name Pacta?",
+      "a": "There is a latin saying «pacta sunt servanda» - «agreements must be kept». This is our motto."
+    },
+    "13": {
+      "q": "Is everything public?",
+      "a": "The Ethereum blockchain is a public database with full transparency. That is why we recommend *not* to store confidential information on the blockchain but instead use another tool for that. We are currently working on solutions to ensure privacy."
+    },
+    "14": {
+      "q": "Why does it take a while until an transaction is confirmed?",
+      "a": "When you do a transaction (such as founding an association, joining etc.) data is directly written to the blockchain. Since the blockchain is not a single database but needs confirmation from various participants, it takes some seconds until the transaction is confirmed."
+    },
+    "faq": {
+      "title": "Support",
+      "body": ""
+    },
+    "group": {
+      "general": "General",
+      "costs": "Pricing",
+      "technical": "Technical"
+    }
+  },
+  "payment": {
+    "title": "Payment",
+    "recipient": "Recipient",
+    "select": {
+      "recipientPlaceholder": "recipientPlaceholder",
+      "commentPlaceholder": "commentPlaceholder"
+    },
+    "comment": "comment",
+    "launch": "launch"
+  },
+  "vote": {
+    "title": "Titel",
+    "select": {
+      "title": "title",
+      "titlePlaceholder": "titlePlaceholder",
+      "description": "description",
+      "descriptionPlaceholder": "descriptionPlaceholder"
+    },
+    "launch": "launch"
+  },
+  "wizard": {
+    "1": {
+      "info": {
+        "title": "Create new association",
+        "text1": "It just takes a few clicks.",
+        "text2": "Set your configuration options and you are done.",
+        "text3": "All data is written to the Ethereum blockchain.",
+        "title1": "Fast",
+        "title2": "Easy",
+        "title3": "Secure",
+        "text4": "Please note: Founding requires gas. Make sure you have some Ether ready."
+      }
+    },
+    "2": {
+      "title": "Information",
+      "name": "Name",
+      "namePlaceholder": "e.g. Blockchain enthusiasts of Switzerland",
+      "purpose": "Purpose",
+      "purposePlaceholder": "e.g. To spread the idea of decentralization",
+      "explanationTitle": "Explanation",
+      "explanationBody": "Please be aware that this information will be deployed on the blockchain and is therefore public and visible for everybody. Currently, no text formatting options are supported."
+    },
+    "3": {
+      "title": "Configuration",
+      "explanationTitle": "Explanation",
+      "explanationBody": "Enable and set your desired configuration. Further configuration capabilities will be added soon.",
+      "fees": "Fee",
+      "feesInfo": "Annual membership fee to be paid upfront.",
+      "listedInfo": "If selected, your association will be shown on the directory page. Recommended.",
+      "feeField": "Fee",
+      "fee": {
+        "infobutton": "infobutton"
+      },
+      "listed": "Publicly listed in directory",
+      "shared": {
+        "infobutton": "infobutton",
+        "title": "title"
+      },
+      "tokenField": "tokenField",
+      "token": "token"
+    },
+    "4": {
+      "reviewstatutes": "Review statutes",
+      "title": "Important notes",
+      "subtitle": "Please read carefully",
+      "note1Title": "Legal status",
+      "note1Body": "Please be aware that organizations managed with Pacta do not comply with any legal entity types. As pure blockchain-based organizations, they are not subject to any country's jurisdiction. It is perfectly legal to use Pacta.",
+      "note2Title": "Be careful",
+      "note2Body": "Pacta, Ethereum and some of the underlying libraries we use are under active development. While we have thoroughly tested, there is always the possibility something unexpected happens that causes your funds to be lost. Please do not invest more than you are willing to lose, and please be careful.",
+      "note3Title": "Security",
+      "note3Body": "We recommend that you learn about risks involved with the blockchain. If you lose access to your ethereum wallet or address, you cannot use Pacta any longer. There are no ways to restore your private key."
+    },
+    "5": {
+      "confirm": "Confirm",
+      "title": "Final review",
+      "explanationBody": "After you click FOUND, you need to authorize your Ethereum wallet. The exact amount of the cost will be shown. Membership fee (if configured) will be included in the transaction.",
+      "config": "config"
+    },
+    "6": {
+      "congratulation": "Congratulations",
+      "info": "You founded on the blockchain. Please find your association on the start site."
+    },
+    "config": {
+      "fee": "Fee",
+      "listing": "Listing"
+    },
+    "accept": "Accept",
+    "found": "Found",
+    "gotopage": "Go to start site",
+    "next": "Next",
+    "step": {
+      "type": "Start",
+      "info": "Info",
+      "config": "Config",
+      "terms": "Terms",
+      "found": "Found"
+    },
+    "back": "Back"
+  },
+  "terms": {
+    "title": "Terms",
+    "notes": {
+      "title": "Important notes"
+    }
+  },
+  "Access Denied": "Access Denied"
+}
