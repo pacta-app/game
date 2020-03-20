@@ -84,7 +84,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
           <CssBaseline />
-          <Router>
+          <Router basename="/game">
             <>
               <Topbar
                 onToggle={this.handleDrawerToggle}
